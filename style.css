@@ -31,19 +31,23 @@ header {
     justify-content: center;
 }
 
+.homepage {
+    padding-right: 70px;
+}
 h1 {
     font-size: 55px;
 }
 
 .subheader {
-    font-size: 24px;
-    display: flex;
-    justify-content: flex-end;
+    font-size: 26px;
+}
+
+.laptop {
+    width: 400px;
+    height: 250px;
 }
 
 .onebutton {
-    display: flex;
-    justify-content: flex-start;
 }
 .logo {
     width: 300px;
