@@ -77,3 +77,17 @@ li {
     align-items: center;
     justify-content: center;
 }
+
+.community {
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.community-title {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
