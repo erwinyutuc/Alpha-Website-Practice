@@ -78,10 +78,16 @@ li {
     justify-content: center;
 }
 
+#about,
+#community,
+#contact {
+    padding: 48px 0px;
+}
+
 /* ABOUT */
 
-#about {
-    padding: 48px 0px;
+#about
+    {
     background-color: #f8ffdc;
 }
 
@@ -122,3 +128,8 @@ img {
 
 /* COMMUNITY */
 
+#community {
+    background-color: #cefeff;
+}
+
+/* CONTACT */
