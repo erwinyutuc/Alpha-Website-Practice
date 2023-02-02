@@ -24,7 +24,7 @@
             <div class="homepage">
                 <h1>HTML & CSS BEST PRACTICES</h1>
                 <p class="subheader">Practice for cookie cutter website builds</p>
-                <button class="onebutton">Click here</button>
+                <button>Click here</button>
             </div>
             <figure> 
                 <img src="./HTMLpractice/HTML Practise Assets/laptop.jpg" class="laptop"alt="">
@@ -35,6 +35,7 @@
     <main>
         <section id="about">
             <h2>ABOUT</h2>
+            <div class="row">
             <div class="section__description">
                 <div class="section__description--wrapper">
                 <p class="section__decription--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus architecto fuga blanditiis tenetur dolore debitis eius, esse molestias ratione maiores! Numquam commodi voluptas eos? Alias eum similique impedit. Necessitatibus laboriosam possimus, veniam illum iste accusamus velit exercitationem assumenda at vitae.</p>
@@ -44,38 +45,44 @@
                 <img src="./HTMLpractice/HTML Practise Assets/about.jpg" alt="">
             </figure>
             </div>
+            </div>
         </section>
         <section id="community">
             <h2>COMMUNITY</h2>
-        <div class="section__description">
+            <div class="row">
+            <div class="section__description">
             <figure class="about__img--wrapper">
                 <img src="./HTMLpractice/HTML Practise Assets/discord.png" alt="Discord">
             </figure>
                 <div class="section__description--wrapper">
                 <p class="section__decription--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ullam aperiam autem libero? Asperiores iusto beatae dolorum doloribus ad voluptate minus illo! Libero, tempore aliquam aperiam animi quisquam iure, maxime beatae maiores ea consectetur magni minus, explicabo voluptas doloribus facilis accusantium hic voluptate iste similique velit amet eligendi. Eius dolorem sequi nobis assumenda aliquam expedita odio laudantium! Mollitia, provident nemo? Repellendus, blanditiis libero eius tempora explicabo natus error accusamus hic.</p>
                 <p class="section__decription--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, adipisci praesentium, eos nam quam perspiciatis nostrum molestias laborum dolorem harum voluptas ducimus sint hic molestiae alias quis veritatis corrupti blanditiis. Deleniti laudantium laborum cumque. Earum eveniet magni nihil officiis reprehenderit non impedit iusto odio aliquid ab tenetur, fuga asperiores, necessitatibus deleniti nobis consequuntur, beatae laudantium ducimus? Numquam totam accusamus unde maxime magni ab exercitationem aspernatur neque itaque eaque atque quas omnis suscipit assumenda id, fugiat, ex sit, quidem doloribus laudantium voluptates ad. Sunt aliquam, recusandae dolor nihil quaerat eaque sed.</p>
-                </div>    
-        </div>
+                </div>
+            </div>    
+            </div>
         </section>
         <section id="contact">
-            <h2>CONTACT</h2>
+            <h2>CONTACT</h2> 
+            <div class="row">
             <form action="">
                 <label>EMAIL</label>
-                <input type="text" placeholder="jane@example.com">
+                <input type="email" placeholder="jane@example.com">
                 <label>MESSAGE</label>
                 <textarea type="text" placeholder="Lets connect!"></textarea>
                 <button>SUBMIT</button>
             </form>
+            </div>
         </section>
     </main>
 
     <footer>
-        <img src="./HTMLpractice/HTML Practise Assets/htmlprojectlogo.html" alt="">
-        <div>
-            <a href="ABOUT">ABOUT</a>
-            <a href="COMMUNITY">COMMUNITY</a>
-            <a href="CONTACT">CONTACT</a>
-            <a href="GITHUB">GITHUB</a>
+        <img class="footer__logo" src="./HTMLpractice/HTML Practise Assets/htmlprojectlogo.html" alt="">
+        <div class="footer__links">
+            <a class="footer__links" href="ABOUT">ABOUT</a>
+            <a class="footer__links" href="COMMUNITY">COMMUNITY</a>
+            <a class="footer__links" href="CONTACT">CONTACT</a>
+            <a class="footer__links" href="GITHUB">GITHUB</a>
+            <p class="footer__links">Copy right & terms of conditions</p>
         </div>
     </footer>
  </body>
